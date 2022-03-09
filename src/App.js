@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+
+function Header() {
+  return (
+    <header className="header">
+      <h1>Simulasi Antrian</h1>
+    </header>
+  );
+}
+
+function Content() {}
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <Header />
+      <hr />
+      <div className="input_antrian">
+        <label>Nama Anda</label>
+        <input type="text" name="nama" autoComplete="off" />
+        <br />
+        <button>Antrikan !</button>
+        <button>Majukan !</button>
+      </div>
     </div>
   );
 }
