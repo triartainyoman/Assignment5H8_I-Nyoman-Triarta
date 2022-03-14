@@ -21,16 +21,39 @@ code {
   text-align: center;
 }
 
-.input_antrian {
+.create_antrian {
   text-align: center;
 }
 
-.input_antrian label {
+.create_antrian label {
   display: block;
   font-size: 1.2em;
   font-weight: 500;
+  margin-bottom: 15px;
 }
 
-.input_antrian input {
+.create_antrian input {
   width: 150px;
+  margin-bottom: 5px;
+}
+
+.create_antrian button {
+  margin: 10px;
+}
+
+.daftar_antrian {
+  display: flex;
+  justify-content: center;
+}
+.nama_antrian {
+  display: inline-block;
+  min-width: 30px;
+  height: 30px;
+  margin: 10px;
+  padding: 10px;
+  line-height: 30px;
+  text-align: center;
+  background-color: orange;
+  color: white;
+  font-weight: bold;
 }
